@@ -1,301 +1,307 @@
-<!DOCTYPE html>
-<html class="overflow-y-scroll h-full" lang="en">
+<!doctype html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <title>Betwise</title>
-        <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+        <meta name="viewport" content="width=device-width" />
 
-        <style media="screen">
-            .font-sans {
-                font-family: 'Source Sans Pro', apple-system, BlinkMacSystemFont, 'Helvetica Neue', arial, sans-serif;
-            }
-        </style>
+        <link href="assets/css/bootstrap.css" rel="stylesheet" />
+        <link href="assets/css/landing-page.css" rel="stylesheet"/>
+
+        <!--     Fonts and icons     -->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300' rel='stylesheet' type='text/css'>
+        <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
     </head>
-    <body class="font-sans text-black h-full">
-        <header class="absolute pin-t pin-l w-full py-4">
-            <div class="flex items-center justify-between px-8">
-                <span class="text-2xl tracking-tight font-semibold">
-                    Betwise
-                </span>
-                <div class="">
-                    <div class="flex items-center">
-                        <a class="text-lg leading-normal text-blue hover:text-blue-dark no-underline ml-8" href="#">Link</a>
-                        <a class="text-lg leading-normal text-blue hover:text-blue-dark no-underline ml-8" href="#">Link</a>
-                        <a class="text-lg leading-normal text-blue hover:text-blue-dark no-underline ml-8" href="#">Link</a>
-                    </div>
+    <body class="landing-page landing-page2">
+        <nav class="navbar navbar-transparent navbar-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar bar1"></span>
+                    <span class="icon-bar bar2"></span>
+                    <span class="icon-bar bar3"></span>
+                    </button>
+                    <a href="http://www.betwise.blog">
+                        <div class="logo-container">
+                            <div class="logo">
+                                <img src="assets/img/new_logo.png" alt="Betwise Logo">
+                            </div>
+                            <div class="brand">
+                                Betwise
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </div>
-        </header>
-        <section class="bg-blue-lightest h-full py-8">
-            <div class="w-5/6 max-w-lg ml-auto mr-auto h-full">
-                <div class="flex items-center justify-center text-center h-full">
-                    <div>
-                        <h1 class="text-4xl sm:text-5xl font-semibold leading-none tracking-tight mb-4">This is an insanely big ass heading</h1>
-                        <h2 class="text-2xl sm:text-3xl text-blue-darker opacity-75 font-normal leading-tight mb-8">This is a little ass heading to provide additional support.</h2>
-                        <div class="flex flex-col sm:flex-row items-center justify-center sm:pt-3 mb-3 sm:mb-6">
-                            <a class="flex items-center text-xl leading-none text-blue hover:text-blue-dark no-underline mb-2 sm:mb-0 sm:mr-4" href="#">
-                                <div class="mr-3">
-                                    <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="3"/><line x1="12" y1="22" x2="12" y2="8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/></svg>
-                                </div>
-                                <span>
-                                    Link to something
-                                </span>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="example" >
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">
+                            <i class="fa fa-telegram"></i>
+                            Join our Telegram
                             </a>
-                            <a class="flex items-center text-xl leading-none text-blue hover:text-blue-dark no-underline mt-2 sm:mt-0 sm:ml-4" href="#">
-                                <div class="mr-3">
-                                    <svg class="align-middle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="8 12 12 16 16 12"/><line x1="12" y1="8" x2="12" y2="16"/></svg>
-                                </div>
-                                <span>
-                                    Link to something
-                                </span>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <i class="fa fa-twitter"></i>
+                            Join our Twitter
                             </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="parallax filter-gradient blue" data-color="blue">
+                <div class= "container">
+                    <div class="row">
+                        <div class="col-md-7  hidden-xs">
+                            <div class="parallax-image">
+                                <img src="assets/img/showcases/showcase-2/mac1.jpg"/>
+                            </div>
                         </div>
-                        <div class="flex flex-col sm:flex-row justify-center pt-8">
-                            <button class="bg-blue hover:bg-blue-dark text-2xl leading-none text-white font-semibold h-12 px-8 rounded-full whitespace-no-wrap mb-2 sm:mb-0 sm:mr-2">
-                                Get started
-                            </button>
-                            <button class="bg-transparent text-2xl leading-none text-blue font-semibold hover:text-blue-dark h-12 px-8 border border-blue-lighter hover:border-blue-light rounded-full whitespace-no-wrap mt-2 sm:mt-0 sm:ml-2">
-                                Learn more
-                            </button>
+                        <div class="col-md-5">
+                            <div class="description text-center">
+                                <h2>FULLY DECENTRALIZED GAMBLING PLATFORM - BLOCKCHAIN TECHNOLOGY</h2>
+                                <br>
+                                <h5>1996 saw the establishment of the Kahnawake Gaming Commission, which regulated online gaming activity from the Mohawk Territory of Kahnawake and issues gaming licences to many of the world's online casinos and poker rooms. This is an attempt to keep the operations of licensed online gambling organisations fair and transparent.</h5>
+                                <div class="buttons">
+                                    <a href="http://www.betwise.blog/whitepaper.pdf" class="btn btn-fill btn-neutral">
+                                    <i class="fa fa-download"></i> whitepaper
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <section class="bg-white py-8">
-            <div class="w-5/6 max-w-lg ml-auto mr-auto mt-8 mb-8">
-                <div class="flex flex-wrap -mx-6 -my-6">
-                    <div class="w-full sm:w-1/2 px-6 py-6">
-                        <div class="mb-8">
-                            <svg class="align-middle text-red" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><polyline points="21 8 21 21 3 21 3 8"/><rect x="1" y="3" width="22" height="5"/><line x1="10" y1="12" x2="14" y2="12"/></svg>
-                        </div>
-                        <h3 class="text-3xl sm:text-4xl font-semibold tracking-tight leading-none mb-3">This is a small heading</h3>
-                        <p class="text-lg sm:text-xl leading-normal text-grey-darker mb-8">If you don't plan to use the shadow utilities in your project, you can disable them entirely.</p>
-                        <a class="text-lg leading-normal text-blue hover:text-blue-dark no-underline" href="#">Link to something</a>
-                    </div>
-                    <div class="w-full sm:w-1/2 px-6 py-6">
-                        <div class="mb-8">
-                            <svg class="align-middle text-teal" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="14.31" y1="8" x2="20.05" y2="17.94"/><line x1="9.69" y1="8" x2="21.17" y2="8"/><line x1="7.38" y1="12" x2="13.12" y2="2.06"/><line x1="9.69" y1="16" x2="3.95" y2="6.06"/><line x1="14.31" y1="16" x2="2.83" y2="16"/><line x1="16.62" y1="12" x2="10.88" y2="21.94"/></svg>
-                        </div>
-                        <h3 class="text-3xl sm:text-4xl font-semibold tracking-tight leading-none mb-3">This is a small heading</h3>
-                        <p class="text-lg sm:text-xl leading-normal text-grey-darker mb-8">If you don't plan to use the shadow utilities in your project, you can disable them entirely.</p>
-                        <a class="text-lg leading-normal text-blue hover:text-blue-dark no-underline" href="#">Link to something</a>
+            <div class="section section-gray section-clients">
+                <div class="container text-center">
+                    <h4 class="header-text">FAIR & TRANSPARENT</h4>
+                    <p>
+                        Fast forward twenty-three years and the online gambling industry is said to be worth US$45.86 billion growing to US$56.05 billion by 2018.<br>
+                        With the cost of new and existing customers increasing, margins are continuously being squeezed in a highly competitive and crowded market.
+                        The real issue here is the inability to truly benefit from many advances in the world of technology to effectively use the workforce and answer adequately to the ever changing habits of their customer base
+                    </p>
+                    <div class="logos">
+                        <ul class="list-unstyled">
+                            <li ><img src="assets/img/logos/bloomberg.png" style="max-height:3em!important;"/></li>
+                            <li ><img src="assets/img/logos/businessinsider.png" style="max-height:3em!important;"/></li>
+                            <li ><img src="assets/img/logos/cnbc.png" style="max-height:3em!important;"/></i>
+                            <li ><img src="assets/img/logos/gaming.png"/></li>
+                            <li ><img src="assets/img/logos/gaming1.jpeg" style="max-height:3em!important;"/></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <section class="bg-grey-lightest py-8">
-            <div class="w-5/6 max-w-2xl ml-auto mr-auto mt-8 mb-8">
-                <div class="flex flex-wrap -mx-6 -my-6">
-                    <div class="w-full sm:w-1/2 lg:w-1/4 px-6 py-6">
-                        <div class="mb-8">
-                            <svg class="align-middle text-teal" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><polyline points="21 8 21 21 3 21 3 8"/><rect x="1" y="3" width="22" height="5"/><line x1="10" y1="12" x2="14" y2="12"/></svg>
+            <div class="section section-presentation">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 hidden-xs">
+                            <div class="description">
+                                <h4 class="header-text">Operator Challenges</h4>
+                                <ol>
+                                    <li>unfavorable, fragmented taxation frameworks.</li>
+                                    <li>decades of accumulated technical debt. </li>
+                                    <li>legacy gaming platforms with large bloated organisations.</li>
+                                </ol>
+                            </div>
                         </div>
-                        <h3 class="text-3xl font-semibold tracking-tight leading-none mb-3">This is a small heading</h3>
-                        <p class="text-lg leading-normal text-grey-dark mb-8">If you don't plan to use the shadow utilities in your project, you can disable them entirely by setting the option.</p>
-                        <a class="text-lg leading-normal text-blue hover:text-blue-dark no-underline" href="#">Link to something</a>
-                    </div>
-                    <div class="w-full sm:w-1/2 lg:w-1/4 px-6 py-6">
-                        <div class="mb-8">
-                            <svg class="align-middle text-pink" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="14.31" y1="8" x2="20.05" y2="17.94"/><line x1="9.69" y1="8" x2="21.17" y2="8"/><line x1="7.38" y1="12" x2="13.12" y2="2.06"/><line x1="9.69" y1="16" x2="3.95" y2="6.06"/><line x1="14.31" y1="16" x2="2.83" y2="16"/><line x1="16.62" y1="12" x2="10.88" y2="21.94"/></svg>
+                        <div class="col-md-6 ">
+                            <img src="assets/img/showcases/showcase-2/mac1.jpeg" style="margin-top:-50px"/>
                         </div>
-                        <h3 class="text-3xl font-semibold tracking-tight leading-none mb-3">This is a small heading</h3>
-                        <p class="text-lg leading-normal text-grey-dark mb-8">If you don't plan to use the shadow utilities in your project, you can disable them entirely by setting the option.</p>
-                        <a class="text-lg leading-normal text-blue hover:text-blue-dark no-underline" href="#">Link to something</a>
-                    </div>
-                    <div class="w-full sm:w-1/2 lg:w-1/4 px-6 py-6">
-                        <div class="mb-8">
-                            <svg class="align-middle text-purple" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="14.31" y1="8" x2="20.05" y2="17.94"/><line x1="9.69" y1="8" x2="21.17" y2="8"/><line x1="7.38" y1="12" x2="13.12" y2="2.06"/><line x1="9.69" y1="16" x2="3.95" y2="6.06"/><line x1="14.31" y1="16" x2="2.83" y2="16"/><line x1="16.62" y1="12" x2="10.88" y2="21.94"/></svg>
-                        </div>
-                        <h3 class="text-3xl font-semibold tracking-tight leading-none mb-3">This is a small heading</h3>
-                        <p class="text-lg leading-normal text-grey-dark mb-8">If you don't plan to use the shadow utilities in your project, you can disable them entirely by setting the option.</p>
-                        <a class="text-lg leading-normal text-blue hover:text-blue-dark no-underline" href="#">Link to something</a>
-                    </div>
-                    <div class="w-full sm:w-1/2 lg:w-1/4 px-6 py-6">
-                        <div class="mb-8">
-                            <svg class="align-middle text-orange" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="14.31" y1="8" x2="20.05" y2="17.94"/><line x1="9.69" y1="8" x2="21.17" y2="8"/><line x1="7.38" y1="12" x2="13.12" y2="2.06"/><line x1="9.69" y1="16" x2="3.95" y2="6.06"/><line x1="14.31" y1="16" x2="2.83" y2="16"/><line x1="16.62" y1="12" x2="10.88" y2="21.94"/></svg>
-                        </div>
-                        <h3 class="text-3xl font-semibold tracking-tight leading-none mb-3">This is a small heading</h3>
-                        <p class="text-lg leading-normal text-grey-dark mb-8">If you don't plan to use the shadow utilities in your project, you can disable them entirely by setting the option.</p>
-                        <a class="text-lg leading-normal text-blue hover:text-blue-dark no-underline" href="#">Link to something</a>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <section class="bg-white py-8">
-            <div class="w-5/6 max-w-lg ml-auto mr-auto mt-8 mb-8">
-                <div class="flex flex-col md:flex-row items-center justify-center">
-                        <p class="text-xl leading-normal mr-6 mb-8 md:mb-0 text-center md:text-left">This could be a call to action.</p>
-                        <button class="bg-blue hover:bg-blue-dark text-xl leading-none text-white font-semibold h-10 px-6 rounded-full whitespace-no-wrap">
-                            Get started
-                        </button>
+            <div class="section section-demo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="demo-image">
+                                <img src="assets/img/showcases/showcase-2/mac2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-md-offset-1">
+                            <h4 class="header-text">Pay to Play</h4>
+                            <p>
+                                Pay to play decription goes here Pay to play decription goes here Pay to play decription goes here Pay to play decription goes here Pay to play decription goes here Pay to play decription goes here.
+                            </p>
+                            <p>
+                                Pay to play decription goes herePay to play decription goes here Pay to play decription goes here Pay to play decription goes here Pay to play decription goes here .
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h4 class="header-text">Another description</h4>
+                            <p>
+                                Pay to play decription goes here Pay to play decription goes here Pay to play decription goes here Pay to play decription goes here Pay to play decription goes here Pay to play decription goes here.
+                            </p>
+                            <p>
+                                Pay to play decription goes here Pay to play decription goes here Pay to play decription goes here Pay to play decription goes here Pay to play decription goes here Pay to play decription goes here.
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-md-offset-1">
+                            <div class="demo-image">
+                                <img src="assets/img/showcases/showcase-2/examples/home_6.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
+            <div class="section section-features">
+                <div class="container">
+                    <h4 class="header-text text-center">Features</h4>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card card-blue">
+                                <div class="icon">
+                                    <i class="pe-7s-door-lock"></i>
+                                </div>
+                                <div class="text">
+                                    <h4>Sovereign Identity</h4>
+                                    <p>we could give individuals back control of their personal information and enable them to store it in a distributed ledger, thus helping effectively mitigate the risk of identity theft</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card card-blue">
+                                <div class="icon">
+                                    <i class="pe-7s-shield"></i>
+                                </div>
+                                <h4>Gaming compliance</h4>
+                                <p>Betwise has passed compliance testing set by the Gaming Commission.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card card-blue">
+                                <div class="icon">
+                                    <i class="pe-7s-like"></i>
+                                </div>
+                                <h4>Hassle free fast Betting</h4>
+                                <p>You'll Love It, some description here.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card card-blue">
+                                <div class="icon">
+                                    <i class="pe-7s-cash"></i>
+                                </div>
+                                <h4>Another feature heading here</h4>
+                                <p>some description here.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section section-testimonial">
+                <div class="container">
+                    <h4 class="header-text text-center">What people think</h4>
+                    <div id="carousel-example-generic" class="carousel fade" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item">
+                                <div class="mask">§
+                                    <img src="assets/img/faces/face-4.jpg">
+                                </div>
+                                <div class="carousel-testimonial-caption">
+                                    <p>Vip player 1</p>
+                                    <h3>"I absolutely love your app! It's truly amazing and looks awesome!"</h3>
+                                </div>
+                            </div>
+                            <div class="item active">
+                                <div class="mask">
+                                    <img src="assets/img/faces/face-3.jpg">
+                                </div>
+                                <div class="carousel-testimonial-caption">
+                                    <p>Vip player 2</p>
+                                    <h3>"This is one of the most awesome apps I've ever seen!"</h3>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="mask">
+                                    <img src="assets/img/faces/face-2.jpg">
+                                </div>
+                                <div class="carousel-testimonial-caption">
+                                    <p>Vip player 3</p>
+                                    <h3>"Loving this! Just picked it up the other day. Thank you for the work you put into this."</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <ol class="carousel-indicators carousel-indicators-blue">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="section section-no-padding">
+                <div class="parallax filter-gradient blue" data-color="blue">
+                    <div class="parallax-background">
+                        <img class ="parallax-background-image" src="assets/img/showcases/showcase-2/bg2.jpg">
+                    </div>
+                    <div class="info">
+                        <h1>Time to play!</h1>
+                        <p>some text here.</p>
+                        <a href="http://www.betwise.blog/bet" class="btn btn-neutral btn-lg btn-fill">PLAY</a>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container">
+                    <nav class="pull-left">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                About
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                Newsroom
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                The Team
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                Get in touch
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="social-area pull-right">
+                        <a class="btn btn-social btn-facebook btn-simple">
+                        <i class="fa fa-telegram"></i>
+                        </a>
+                        <a class="btn btn-social btn-twitter btn-simple">
+                        <i class="fa fa-twitter"></i>
+                        </a>
 
-        <div class="flex justify-center">
-            <div class="bg-grey-light h-1 w-16 rounded"></div>
+                    </div>
+                    <div class="copyright">
+                        &copy; 2016 <a href="http://www.betwise.blog">Betwise</a>
+                    </div>
+                </div>
+            </footer>
         </div>
 
-        <section class="bg-white py-8">
-            <div class="w-5/6 max-w-lg ml-auto mr-auto mt-8 mb-8">
-                <div class="flex flex-col justify-center text-center pb-8">
-                    <h2 class="text-5xl font-semibold leading-none tracking-tight mb-4">Flexible pricing for your inflexible needs</h2>
-                    <h3 class="text-3xl text-blue-darker opacity-75 font-normal leading-none mb-8">14-day free trial. No credit card required.</h3>
-                </div>
-
-                <div class="bg-white rounded shadow-lg overflow-hidden">
-                    <div class="flex flex-col-reverse md:flex-row">
-                        <div class="flex-1">
-                            <div class="bg-grey-lightest p-8">
-                                <h5 class="text-xl font-semibold mb-8">What you get when you sign up:</h5>
-                                <ul class="list-reset">
-                                    <li class="mb-4">
-                                        <div class="flex items-center">
-                                            <div class="mr-4">
-                                                <svg class="align-middle text-teal" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                                            </div>
-                                            <p class="text-lg leading-normal">Unlimited everything</p>
-                                        </div>
-                                    </li>
-                                    <li class="mb-4">
-                                        <div class="flex items-center">
-                                            <div class="mr-4">
-                                                <svg class="align-middle text-teal" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                                            </div>
-                                            <p class="text-lg leading-normal">Unlimited limitlessness</p>
-                                        </div>
-                                    </li>
-                                    <li class="mb-4">
-                                        <div class="flex items-center">
-                                            <div class="mr-4">
-                                                <svg class="align-middle text-teal" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                                            </div>
-                                            <p class="text-lg leading-normal">Single sign-on</p>
-                                        </div>
-                                    </li>
-                                    <li class="">
-                                        <div class="flex items-center">
-                                            <div class="mr-4">
-                                                <svg class="align-middle text-teal" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                                            </div>
-                                            <p class="text-lg leading-normal">Code export HAHAHA</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="flex-1">
-                            <div class="flex flex-col items-center p-8 h-full">
-                                <div class="flex flex-1 mb-8">
-                                    <div class="flex self-start items-center">
-                                        <span class="text-3xl text-grey-dark leading-none mr-2">$</span>
-                                        <span class="text-5xl font-semibold tracking-tight leading-none text-teal mr-3" style="font-size: 5.6rem;">499</span>
-                                        <span class="text-xl text-grey-dark leading-none">/ month</span>
-                                    </div>
-                                </div>
-                                <button class="bg-teal hover:bg-teal-dark text-xl leading-none text-white font-semibold h-10 px-6 rounded-full whitespace-no-wrap w-full">
-                                    Take my money
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="w-5/6 max-w-md ml-auto mr-auto pt-8 mt-8 mb-8">
-                <div class="flex flex-wrap -mx-6 -my-6">
-                    <div class="w-full sm:w-1/2 px-6 py-6">
-                        <h3 class="text-xl font-semibold leading-tight mb-3">Can I use these templates for free?</h3>
-                        <p class="text-lg leading-normal text-grey-darker mb-8">Yes! These templates are open-source so you can copy, paste and edit them any way you see fit.</p>
-                    </div>
-                    <div class="w-full sm:w-1/2 px-6 py-6">
-                        <h3 class="text-xl font-semibold leading-tight mb-3">Can I use these templates for free?</h3>
-                        <p class="text-lg leading-normal text-grey-darker mb-8">Yes! These templates are open-source so you can copy, paste and edit them any way you see fit.</p>
-                    </div>
-                    <div class="w-full sm:w-1/2 px-6 py-6">
-                        <h3 class="text-xl font-semibold leading-tight mb-3">Can I use these templates for free?</h3>
-                        <p class="text-lg leading-normal text-grey-darker mb-8">Yes! These templates are open-source so you can copy, paste and edit them any way you see fit.</p>
-                    </div>
-                    <div class="w-full sm:w-1/2 px-6 py-6">
-                        <h3 class="text-xl font-semibold leading-tight mb-3">Can I use these templates for free?</h3>
-                        <p class="text-lg leading-normal text-grey-darker mb-8">Yes! These templates are open-source so you can copy, paste and edit them any way you see fit.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="bg-grey-lightest py-8">
-            <div class="w-5/6 max-w-2xl ml-auto mr-auto mt-8">
-                <div class="flex flex-wrap -mx-6 -my-6">
-                    <div class="w-full lg:w-1/3 px-6 py-6">
-                        <a class="no-underline" href="#">
-                            <div class="bg-pink-dark rounded shadow-lg overflow-hidden p-8">
-                                <h5 class="text-2xl text-white mb-4">Small heading</h5>
-                                <p class="text-lg text-white leading-tight">This card links to a deeper screen with more info on some topic.</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="w-full lg:w-1/3 px-6 py-6">
-                        <a class="no-underline" href="#">
-                            <div class="bg-red-light rounded shadow-lg overflow-hidden p-8">
-                                <h5 class="text-2xl text-white mb-4">Small heading</h5>
-                                <p class="text-lg text-white leading-tight">This card links to a deeper screen with more info on some topic.</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="w-full lg:w-1/3 px-6 py-6">
-                        <a class="no-underline" href="#">
-                            <div class="bg-purple-light rounded shadow-lg overflow-hidden p-8">
-                                <h5 class="text-2xl text-white mb-4">Small heading</h5>
-                                <p class="text-lg text-white leading-tight">This card links to a deeper screen with more info on some topic.</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="bg-grey-lightest py-8">
-            <div class="w-5/6 max-w-xl ml-auto mr-auto my-8">
-                <div class="flex md:items-center flex-col md:flex-row md:justify-between">
-                    <div class="mb-8 md:mb-0 md:pr-4">
-                        <h3 class="text-4xl font-normal tracking-tight leading-none mb-3">This is a medium heading</h3>
-                        <h4 class="text-3xl text-grey-dark font-normal leading-tight">This might be used for a call to action.</h4>
-                    </div>
-                    <div class="md:pl-4">
-                        <div class="flex items-center">
-                            <button class="bg-blue hover:bg-blue-dark text-xl leading-none text-white font-semibold h-10 px-6 rounded-full whitespace-no-wrap mr-2">
-                                Get started
-                            </button>
-                            <button class="bg-transparent text-xl leading-none text-blue font-semibold hover:text-blue-dark h-10 px-6 border border-blue-lighter hover:border-blue-light rounded-full whitespace-no-wrap ml-2">
-                                Learn more
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <footer class="bg-grey-lightest py-8">
-            <div class="flex flex-col-reverse md:flex-row md:items-center md:justify-between px-8">
-                <small class="block text-sm text-grey">
-                    &copy; CompanyName
-                </small>
-                <div class="mb-4 md:mb-0">
-                    <div class="flex flex-col md:flex-row md:items-center">
-                        <a class="text-xl md:text-base leading-normal text-grey-dark hover:text-black no-underline mb-4 md:mb-0 md:ml-8" href="#">Link</a>
-                        <a class="text-xl md:text-base leading-normal text-grey-dark hover:text-black no-underline mb-4 md:mb-0 md:ml-8" href="#">Another link</a>
-                        <a class="text-xl md:text-base leading-normal text-grey-dark hover:text-black no-underline mb-4 md:mb-0 md:ml-8" href="#">Link to something</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
     </body>
+    <script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+    <script src="assets/js/bootstrap.js" type="text/javascript"></script>
+    <script src="assets/js/awesome-landing-page.js" type="text/javascript"></script>
 </html>
